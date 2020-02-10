@@ -1,0 +1,62 @@
+# Theme Developed for DefCon Delhi by Harsh Trivedi
+# Default Markdown Engine
+markdown: kramdown
+
+# Files which needs to be exluded
+exclude:
+  - Gemfile.lock
+
+hero-title: DC9111
+hero-subtitle: For the Hackers, By the Hackers
+nav-title: DC9111
+
+# Title for your Site
+title: DEF CON Delhi
+event: DC9111
+subtitle: For the Hackers, By the Hackers
+
+about: DEF CON Delhi | DC9111 is a group of techies, developers, designers, hackers and security researchers that is trying to spread core knowledge in the domain of cybersecurity and hacking that ranges from web application, hardware, embedded systems to RFID.
+# About Should Contain Maximum 50 Words
+
+facebook: dc9111
+twitter: dc_9111
+instagram: dc_9111
+mail: mail@defcon9111.org
+image: https://raw.githubusercontent.com/dc-9111/website/master/images/meta.jpg
+eventdate: '06th of June, 2020'
+eventlocation: New Delhi
+eventlocationurl: https://goo.gl/maps/SXrQPE71pWsfdd5D8
+
+# Author Name of the Blog
+author: Harsh Trivedi
+
+# Setting Permalink for your Blog
+permalink: 'blog/:title'
+
+# Default Port for Hosting your.
+port: 4000
+
+# Default Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-admin
+
+# Defaults for your Blog
+defaults:
+  -
+    scope:
+      path: ""
+      type: 'posts'
+    values:
+      image: ""
+      meta: ""
+      author: ""
+      layout: posts
+  -
+    scope:
+      path: ""
+      type: 'pages'
+    values:
+      image: ""
+      meta: ""
+      layout: page

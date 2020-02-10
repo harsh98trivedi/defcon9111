@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  {% include meta.html %}
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="shortcut icon" href="/resources/logo.png" type="image/x-icon">
+  <title>{{site.title}} - {{site.event}} | {{site.subtitle}}</title>
+  <link rel="stylesheet" type="text/css" href="/resources/slick.css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+  {% include nav.html %}
+  {% include hero.html %}
+  {% include about.html %}
+  {% include team.html %}
+  {% include footer.html %}
+  <script type="text/javascript">
+    (function () {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#' + burger.dataset.target);
+      burger.addEventListener('click', function () {
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+  </script>
+</body>
+<script>
+  document.getElementsByTagName('video')[0].onended = function () {
+    this.load();
+    this.play();
+  };
+</script>
+<script src="https://kit.fontawesome.com/609f7f6148.js" crossorigin="anonymous"></script>
+</html>

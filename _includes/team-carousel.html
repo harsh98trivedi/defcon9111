@@ -1,0 +1,64 @@
+<div class="container" id="slider">
+    <ul class="slick">
+        {% for person in site.data.team %}
+        <li>
+            <a href="{{person.twitter}}" target="_blank">
+                <img src="{{person.image}}" alt="{{person.name}}">
+                <p class="center">{{person.name}}</p>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<style>
+    #slider{
+        display: flex;
+        justify-content: center;
+    }
+    .slick {
+        justify-content: center;
+        display: flex;
+        max-width: 90vw;
+    }
+
+    .slick li {
+        margin: auto 1.5rem;
+    }
+
+    .slick a {
+        color: white;
+    }
+
+    .slick img {
+        max-width: 7.5rem;
+        margin: 0.5rem auto;
+        border-radius: 10rem;
+        border: 0.15rem solid white;
+    }
+</style>
+<script>
+    $('.slick').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+</script>

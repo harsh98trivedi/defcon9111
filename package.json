@@ -1,0 +1,26 @@
+{
+  "name": "defcon-delhi",
+  "version": "1.0.0",
+  "description": "DEF CON 9111 Delhi Group website",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.8.0"
+  },
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "css-build": "node-sass main.scss css/main.css --output-style compressed",
+    "css-watch": "npm run css-build --watch",
+    "start": "npm run css-watch"
+  },
+  "keywords": [
+    "defcon",
+    "delhi",
+    "dc-9111"
+  ],
+  "author": "Harsh Trivedi",
+  "license": "ISC"
+}
