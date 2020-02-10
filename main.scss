@@ -129,18 +129,16 @@ $input-shadow: none;
 #about {
     position: relative;
     z-index: 1;
-
-    .container {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-    }
-
     p {
         margin: 1rem auto;
     }
 
     .hero-body {
         z-index: 1;
+        margin: auto;
+    }
+    .container{
+        margin: auto 0.5rem;
     }
 }
 
@@ -158,11 +156,10 @@ $input-shadow: none;
 #team {
     .hero-body {
         z-index: 1;
-
-        .container {
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-        }
+        margin: auto;
+    }
+    .container{
+        margin: auto 0.5rem;
     }
 }
 
