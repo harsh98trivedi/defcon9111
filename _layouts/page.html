@@ -18,9 +18,29 @@
             <div class="container" id="hero">
                 {{content}}
             </div>
+            <div class="hero-video">
+                <video autoplay loop muted poster="/images/DSC07751.JPG" id="bgvid">
+                    <source src="/resources/video.mp4" type="video/mp4">
+                    <source src="/resources/video.webm" type="video/webm">
+                    <source src="/resources/video.ogg" type="video/ogg">
+                </video>
+            </div>
+            <div class="page-bg">
+            </div>
         </div>
     </section>
     {% include footer.html %}
-    <script src="https://kit.fontawesome.com/609f7f6148.js" crossorigin="anonymous"></script>
+</body>
+<script type="text/javascript">
+    (function () {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#' + burger.dataset.target);
+        burger.addEventListener('click', function () {
+            burger.classList.toggle('is-active');
+            nav.classList.toggle('is-active');
+        });
+    })();
+</script>
+<script src="https://kit.fontawesome.com/609f7f6148.js" crossorigin="anonymous"></script>
 
 </html>
