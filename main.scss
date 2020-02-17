@@ -95,10 +95,10 @@ $input-shadow: none;
     z-index: 0;
     background-size: cover;
     background-position: center;
+    transform: scale(3);
 }
 
 .hero-video {
-    transform: scale(3);
     opacity: 0.25;
     z-index: 1;
 }
