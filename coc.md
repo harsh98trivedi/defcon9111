@@ -15,4 +15,5 @@ Anyone can report harassment. If you are being harassed, notice that someone els
 - **TX**
   **Team Lead**
   **DEF CON Delhi Group (DC9111)**
+  
 *Excerpts from DEF CON Conference Code of Conduct*

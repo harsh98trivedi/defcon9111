@@ -48,4 +48,4 @@ layout: faq
 
 > We are open to all. All you need is interest and determination. This domain will not ask you to be technical person from scratch. 
 
-*Excertps from DEF CON FAQ*
+*Excerpts from DEF CON FAQ*
