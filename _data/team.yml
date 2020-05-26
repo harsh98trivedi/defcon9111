@@ -1,12 +1,16 @@
 - name: TX
   image: https://www.github.com/DotSlashTX.png
   twitter: https://www.twitter.com/DotSlashTX
+  role: Team Leader
 - name : Harsh Trivedi
   image : https://www.github.com/harsh98trivedi.png
   twitter: https://www.twitter.com/harsh98trivedi
+  role: Web Development
 - name : Aditya Rai
   image : https://www.github.com/adityasec.png
-  twitter: https://www.twitter.com/D3v1L4L.
+  twitter: https://www.twitter.com/D3v1L4L
+  role: Management
 - name: Anushka Soni
   image: https://www.github.com/E13V3N-0xB.png
   twitter: https://www.twitter.com/e13v3n_0xB
+  role: Graphic Designer

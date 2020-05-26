@@ -22,12 +22,11 @@ $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito",
-sans-serif;
+$family-sans-serif: "Nunito", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $purple;
-$link: $pink;
+$link: $green;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
@@ -49,30 +48,42 @@ $input-shadow: none;
 @import "node_modules/bulma/sass/layout/section.sass";
 @import "resources/slick-theme.scss";
 
+a {
+    color: $green;
+    &:hover {
+        color: $pink;
+    }
+}
+
 .navbar-brand {
     a:hover {
-        color: $pink !important;
+        color: $green !important;
     }
 
     a:active {
-        color: $green !important;
+        color: $pink !important;
     }
+}
+
+.navbar-dropdown {
+    left: auto;
+    right: 0;
 }
 
 #navMenu {
     text-align: center;
-
     a:hover {
-        color: $purple !important;
+        color: $green !important;
     }
 
     a:active {
-        color: $green !important;
+        color: $purple !important;
     }
 }
 
 .navbar-item {
     font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
 }
 
 .navbar-end {
@@ -95,10 +106,10 @@ $input-shadow: none;
     z-index: 0;
     background-size: cover;
     background-position: center;
+    transform: scale(3);
 }
 
 .hero-video {
-    transform: scale(3);
     opacity: 0.25;
     z-index: 1;
 }
@@ -106,7 +117,11 @@ $input-shadow: none;
 #hero {
     position: relative;
     z-index: 3;
-    margin-top: 1.5rem;
+    margin-top: 1.5rem; 
+    .title {
+        font-family: 'Press Start 2P', cursive !important;
+        letter-spacing: 0.15vmax;
+    }
 }
 
 #hero-main {
@@ -127,20 +142,21 @@ $input-shadow: none;
 }
 
 #about {
+    .title{
+        font-family: 'Press Start 2P', cursive !important;
+    }
     position: relative;
     z-index: 1;
-
-    .container {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-    }
-
     p {
         margin: 1rem auto;
     }
 
     .hero-body {
         z-index: 1;
+        margin: auto;
+    }
+    .container{
+        margin: auto 0.5rem;
     }
 }
 
@@ -156,13 +172,15 @@ $input-shadow: none;
 
 
 #team {
+    .title {
+        font-family: 'Press Start 2P', cursive !important;
+    }
     .hero-body {
         z-index: 1;
-
-        .container {
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-        }
+        margin: auto;
+    }
+    .container{
+        margin: auto 0.5rem;
     }
 }
 
@@ -190,7 +208,7 @@ $input-shadow: none;
     font-family: 'Press Start 2P', cursive;
     position: relative;
     z-index: 1;
-
+    padding: 0.25rem;
     .container {
         padding: 0.5rem;
         align-self: center;
@@ -200,16 +218,60 @@ $input-shadow: none;
         color: white;
 
         &:hover {
-            color: $pink !important;
+            color: $green !important;
         }
 
         &:active {
-            color: $green !important;
+            color: $pink !important;
         }
     }
+}
+
+#copyright{
+    padding: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
 }
 
 #contact {
     width: 75vw;
     margin: 0.25rem auto;
+}
+
+#event {
+    .title {
+        font-family: 'Press Start 2P', cursive !important;
+    }
+}
+
+#faq, #coc, #gallery {
+    font-size: 1.25rem;
+    .title {
+        font-family: 'Press Start 2P', cursive !important;
+        color: $green;
+    }
+    .content {
+        text-align: justify;
+        margin: 5rem 5vmax;
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        blockquote {
+            &::before{
+                content: ">";
+                margin-right: 0.5rem;
+                font-family: 'Press Start 2P', cursive !important;
+            }
+            background-color: rgba($color: $green, $alpha: 0.10);
+            padding: 0.75rem 1rem;
+            border: 1px solid rgba($color: white, $alpha: 0.5);
+            margin-top: 0.5vmax;
+            margin-bottom: 2.5vmax;
+            display: inline-flex;
+        }
+        strong {
+            color: white;
+        }
+    }
 }

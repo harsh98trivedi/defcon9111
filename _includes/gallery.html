@@ -1,0 +1,15 @@
+<div class="container gallery">
+    {% for photo in site.data.gallery %}
+    <a href="{{photo.link}}" target="_blank" class="gallery-image">
+        <img src="{{photo.src}}">
+    </a>
+    {% endfor %}
+</div>
+
+<style>
+    .gallery-image {
+        display: flex;
+        margin: 0.5rem auto;
+        max-width: 50vmax;
+    }
+</style>

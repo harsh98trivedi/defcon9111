@@ -5,16 +5,18 @@
             <a href="{{person.twitter}}" target="_blank">
                 <img src="{{person.image}}" alt="{{person.name}}">
                 <p class="center">{{person.name}}</p>
+                <p class="center">[{{person.role}}]</p>
             </a>
         </li>
         {% endfor %}
     </ul>
 </div>
 <style>
-    #slider{
+    #slider {
         display: flex;
         justify-content: center;
     }
+
     .slick {
         justify-content: center;
         display: flex;
@@ -38,27 +40,27 @@
 </style>
 <script>
     $('.slick').slick({
-                centerMode: true,
-                centerPadding: '60px',
-                slidesToShow: 3,
-                responsive: [{
-                        breakpoint: 768,
-                        settings: {
-                            arrows: false,
-                            centerMode: true,
-                            centerPadding: '40px',
-                            slidesToShow: 3
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            arrows: false,
-                            centerMode: true,
-                            centerPadding: '40px',
-                            slidesToShow: 1
-                        }
-                    }
-                ]
-            });
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [{
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
 </script>

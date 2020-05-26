@@ -12,9 +12,8 @@
     "node-sass": "^4.13.1"
   },
   "scripts": {
-    "css-build": "node-sass main.scss css/main.css --output-style compressed",
-    "css-watch": "npm run css-build --watch",
-    "start": "npm run css-watch"
+    "css-build": "node-sass main.scss css/main.css --output-style compressed --watch",
+    "start": "npm run css-build"
   },
   "keywords": [
     "defcon",
