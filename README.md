@@ -11,7 +11,7 @@ DEF CON Delhi | DC9111 is a group of techies, developers, designers, hackers and
 ---
 
 - Clone this repository by typing the following command on your terminal.
-> git clone https://github.com/dc-9111/website-base.git
+> git clone https://github.com/dc-9111/website.git
 - Install all the required Node Modules by typing
 > npm install
 - Install all the required Gems by typing
@@ -20,3 +20,5 @@ DEF CON Delhi | DC9111 is a group of techies, developers, designers, hackers and
 > bundle exec jekyll build
 - Serve the Site Locally
 > bundle exec jekyll serve
+
+##### [Here](https://github.com/dc-9111/dc-ctf) goes the CTF DC9111 website.
