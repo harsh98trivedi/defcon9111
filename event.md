@@ -11,6 +11,6 @@ layout: event
     at <a class="is-white" href="{{site.eventlocationurl}}" target="_blank">{{site.eventlocation}}</a>
 </div>
 <hr> -->
-<img src="https://pbs.twimg.com/media/EZsJ-N4UEAArwMK?format=jpg&name=4096x4096"/>
+<img src="https://pbs.twimg.com/media/EaF-1W5UcAANPLa?format=png"/>
 Source <a href="https://twitter.com/dc_9111/status/1268618701013528582">Twitter</a>
 </section>
