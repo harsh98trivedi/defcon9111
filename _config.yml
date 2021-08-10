@@ -34,9 +34,6 @@ author: Harsh Trivedi
 # Setting Permalink for your Blog
 permalink: 'blog/:title'
 
-# Default Port for Hosting your.
-port: 4000
-
 # Default Plugins
 plugins:
   - jekyll-feed
