@@ -15,5 +15,5 @@ layout: event
 <br>
 Source <a href="https://twitter.com/dc_9111/status/1268618701013528582">Twitter</a>
      -->
-    <img src="https://pa1.narvii.com/7878/14ee9240eb0ab4618201e8051d800698d84e08b5r1-480-480_00.gif"/>
+   <img src="/resources/coming soon.gif"/>
 </section>
