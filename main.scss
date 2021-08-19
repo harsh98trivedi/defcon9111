@@ -118,6 +118,8 @@ a {
     position: relative;
     z-index: 3;
     margin-top: 1.5rem; 
+    display: flex;
+    justify-content: center;
     .title {
         font-family: 'Press Start 2P', cursive !important;
         letter-spacing: 0.15vmax;
