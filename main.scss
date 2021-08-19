@@ -118,8 +118,6 @@ a {
     position: relative;
     z-index: 3;
     margin-top: 1.5rem; 
-    display: flex!important;
-    justify-content: center!important;
     .title {
         font-family: 'Press Start 2P', cursive !important;
         letter-spacing: 0.15vmax;
@@ -238,6 +236,11 @@ a {
 #contact {
     width: 75vw;
     margin: 0.25rem auto;
+}
+
+#contact-section {
+    display: flex!important;
+    justify-content: center!important;
 }
 
 #faq, #coc, #gallery, #eventsec {
