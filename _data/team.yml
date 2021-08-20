@@ -8,7 +8,7 @@
   role: Web Development
 - name : Manasi Jha
   image : https://avatars.githubusercontent.com/u/47267639?v=4
-  twitter: https://www.twitter.com/D3v1L4L
+  twitter: https://twitter.com/ManasiJha
   role: Management
 - name: Anushka Soni
   image: https://www.github.com/E13V3N-0xB.png
@@ -22,3 +22,7 @@
   image: https://i.imgur.com/2GX7KGQ.jpg
   twitter: https://www.twitter.com/adiintify
   role: Video Editing
+- name: Hardeep Singh
+  image: https://media-exp1.licdn.com/dms/image/C4E03AQGq1dXoHl3Bcw/profile-displayphoto-shrink_400_400/0/1627285720292?e=1634774400&v=beta&t=9mujoMr_Ey0AkMWQ9wvQvM2y5iNnQ1u3ObYwpwGwBPY
+  twitter: https://www.twitter.com/
+  role: CTF Lead
