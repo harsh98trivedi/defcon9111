@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    {% include meta.html %}
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" href="/resources/logo.png" type="image/x-icon">
+    <title>{% if page.title%}{{page.title}} | {% endif %}{{site.title}} - {{site.event}} | {{site.subtitle}}</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    {% include nav.html %}
+   
+    <section class="hero is-fullheight-with-navbar is-black has-background-black-bis" id="faq">
+        <section class="content">
+            <h1 class="title has-text-centered">Volunteers</h1>
+            <h3 class="subtitle has-text-centered"></h3>
+            <hr>
+            {{content}}
+        </section>
+    </section>
+    {% include footer.html %}
+</body>
+<script type="text/javascript">
+    (function () {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#' + burger.dataset.target);
+        burger.addEventListener('click', function () {
+            burger.classList.toggle('is-active');
+            nav.classList.toggle('is-active');
+        });
+    })();
+
+
+    var canvas = document.getElementById('canvas'),
+    ctx = canvas.getContext('2d');
+
+function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
+resize();
+window.onresize = resize;
+
+function noise(ctx) {
+    
+    var w = ctx.canvas.width,
+        h = ctx.canvas.height,
+        idata = ctx.createImageData(w, h),
+        buffer32 = new Uint32Array(idata.data.buffer),
+        len = buffer32.length,
+        i = 0;
+
+    for(; i < len;)
+        buffer32[i++] = ((255 * Math.random())|0) << 24;
+    
+    ctx.putImageData(idata, 0, 0);
+}
+
+var toggle = true;
+
+// added toggle to get 30 FPS instead of 60 FPS
+(function loop() {
+    toggle = !toggle;
+    if (toggle) {
+        requestAnimationFrame(loop);
+        return;
+    }
+    noise(ctx);
+    requestAnimationFrame(loop);
+})();
+
+</script>
+<script src="https://kit.fontawesome.com/609f7f6148.js" crossorigin="anonymous"></script>
+
+</html>
