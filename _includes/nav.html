@@ -11,7 +11,16 @@
         <div id="navMenu" class="navbar-menu is-center has-background-dark">
             <div class="navbar-end">
                 <a href="{{site.url}}#about" class="navbar-item">About</a>
-                <a href="{{site.url}}#team" class="navbar-item">Team</a>
+               <div class="navbar-item has-dropdown is-hoverable ">
+                    <a href="{{site.url}}#team" class="navbar-link">
+                       Team
+                    </a>
+                    <div class="navbar-dropdown has-background-black ">
+                       
+                        <a href="{{site.url}}/Volunteer" class="navbar-item">Volunteers</a>
+                      
+                    </div>
+                </div>
                 <a href="{{site.url}}/contact" class="navbar-item">Contact</a>
                 <a href="{{site.url}}/event" class="navbar-item">Event</a>
                 <div class="navbar-item has-dropdown is-hoverable">
