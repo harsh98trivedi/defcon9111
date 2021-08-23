@@ -274,3 +274,27 @@ a {
         }
     }
 }
+
+#volunteers{
+    .page-wrapper {
+        font-family: 'Lato', sans-serif;
+        margin: auto;
+        display: flex;
+        z-index:1;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        padding: 0 2.5rem;
+      }
+      .profile-box {
+        border-radius: 3px;
+        width: 200px;
+        text-align: center;
+        img {
+            width: 10rem;
+            height: 10rem;
+            border: 0.15rem solid white;
+            border-radius: 50%;
+          }      
+      }
+}
