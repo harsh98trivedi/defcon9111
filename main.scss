@@ -287,13 +287,16 @@ a {
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
-        padding: 0 2.5rem;
+        padding: 1.5rem 2.5rem;
       }
       .profile-box {
         border-radius: 3px;
         width: 200px;
         text-align: center;
+        margin: 0 0 2.5rem 0;
         img {
+            display: block;
+            margin: 0.25rem auto;
             width: 10rem;
             height: 10rem;
             border: 0.15rem solid white;

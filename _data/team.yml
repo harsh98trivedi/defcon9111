@@ -1,29 +1,29 @@
 - name: TX
-  image: http://www.github.com/DotSlashTX.png
-  twitter: http://www.twitter.com/DotSlashTX
+  image: https://imgur.com/a/KXSOQBl
+  twitter: https://www.twitter.com/DotSlashTX
   role: Team Leader
 - name : Harsh Trivedi
-  image : http://www.gravatar.com/avatar/0d73468bd0b0258eb61d9358352ecb7b?s=720
-  twitter: http://www.twitter.com/harsh98trivedi
+  image : https://www.gravatar.com/avatar/0d73468bd0b0258eb61d9358352ecb7b?s=720
+  twitter: https://www.twitter.com/harsh98trivedi
   role: Web Development
 - name : Manasi Jha
-  image : http://avatars.githubusercontent.com/u/47267639?v=4
-  twitter: http://twitter.com/ManasiJha
+  image : https://i.imgur.com/7RUEHxF.png
+  twitter: https://twitter.com/ManasiJha
   role: Management
 - name: Anushka Soni
-  image: http://www.github.com/E13V3N-0xB.png
-  twitter: http://www.twitter.com/e13v3n_0xB
+  image: https://i.imgur.com/zRqgMy4.jpg
+  twitter: https://www.twitter.com/e13v3n_0xB
   role: Graphic Designer
 - name: Mukul Kantiwal
-  image: http://i.imgur.com/UK383m4.jpg
-  twitter: http://www.twitter.com/mukkul007
+  image: https://i.imgur.com/UK383m4.jpg
+  twitter: https://www.twitter.com/mukkul007
   role: Advisory
 - name: Hardeep Singh
-  image: http://avatars.githubusercontent.com/u/54495695?v=4
-  twitter: http://twitter.com/__mrholmes
+  image: https://i.imgur.com/Mob5wje.png
+  twitter: https://twitter.com/__mrholmes
   role: CTF Lead
 - name: Aditya Nama
-  image: http://i.imgur.com/2GX7KGQ.jpg
-  twitter: http://www.twitter.com/adiintify
+  image: https://i.imgur.com/2GX7KGQ.jpg
+  twitter: https://www.twitter.com/adiintify
   role: Video Editing
 
