@@ -4,5 +4,6 @@ layout: event
 ---
 
 <section id="event" class="has-text-centered">
-<img src="https://i.imgur.com/t5VOGaf.gif"/>
+
+  <img src="/resources/coming soon.png"/>
 </section>  
