@@ -11,7 +11,7 @@ body {
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
 
 // Set your brand colors
 $purple: #8A4D76;
@@ -22,7 +22,7 @@ $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
+$family-sans-serif: "Rajdhani", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $purple;
@@ -82,8 +82,9 @@ a {
 }
 
 .navbar-item {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 1rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 .navbar-end {
@@ -119,7 +120,7 @@ a {
     z-index: 3;
     margin-top: 1.5rem; 
     .title {
-        font-family: 'Press Start 2P', cursive !important;
+        font-family: 'Rajdhani', sans-serif !important;
         letter-spacing: 0.15vmax;
     }
 }
@@ -143,7 +144,8 @@ a {
 
 #about {
     .title{
-        font-family: 'Press Start 2P', cursive !important;
+        font-family: 'Rajdhani', sans-serif!important;
+        font-size: 2rem;
     }
     position: relative;
     z-index: 1;
@@ -173,7 +175,7 @@ a {
 
 #team {
     .title {
-        font-family: 'Press Start 2P', cursive !important;
+        font-family: 'Rajdhani', sans-serif!important;
     }
     .hero-body {
         z-index: 1;
@@ -205,7 +207,7 @@ a {
 }
 
 .footer {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Rajdhani', sans-serif;
     position: relative;
     z-index: 1;
     padding: 0.25rem;
@@ -246,12 +248,13 @@ a {
 #faq, #coc, #gallery, #eventsec {
     font-size: 1.25rem;
     .title {
-        font-family: 'Press Start 2P', cursive !important;
+        font-family: 'Rajdhani', sans-serif!important;
         color: $green;
     }
     .content {
         text-align: justify;
         margin: 5rem 5vmax;
+        font-size: 1.25rem;
         h3 {
             font-size: 1.5rem;
             font-weight: 700;
@@ -260,7 +263,7 @@ a {
             &::before{
                 content: ">";
                 margin-right: 0.5rem;
-                font-family: 'Press Start 2P', cursive !important;
+                font-family: 'Rajdhani', sans-serif !important;
             }
             background-color: rgba($color: $green, $alpha: 0.10);
             padding: 0.75rem 1rem;
